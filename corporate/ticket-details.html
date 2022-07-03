@@ -71,7 +71,7 @@
 <div class="navigation">
     <div data-collapse="small" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="sticky-nav w-nav">
         <div class="nav-container">
-            <a href="/" aria-current="page" class="brand w-nav-brand w--current" aria-label="home"><img src="assets/images/logo-212.png" loading="lazy" alt="" class="nav-logotype"></a>
+            <a href="/" aria-current="page" class="brand w-nav-brand w--current" aria-label="home"><img src="../assets/images/logo-212.png" loading="lazy" alt="" class="nav-logotype"></a>
             <div class="menu-items-wrap">
                 <nav role="navigation" class="nav-menu w-nav-menu">
                     <div class="animated-link-wrap"><a href="/" class="animated-link w-nav-link" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">Home</a></div>
@@ -120,6 +120,7 @@
         <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
     </div>
 </div>
+
 <div class="section">
     <div
             class="max-w-screen-xl
@@ -133,7 +134,7 @@
                  text-gray-900 rounded-lg">
         <div class="flex flex-col justify-between">
             <div>
-                <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Lets talk about everything!</h2>
+                <h2 class="text-4xl lg:text-5xl font-bold leading-tight">Tell us more about the ticket!</h2>
                 <div class="text-gray-700 mt-8">
                     Hate forms? Send us an <span class="underline">email</span> instead.
                 </div>
@@ -648,14 +649,45 @@
                        type="text">
             </div>
             <div class="mt-8">
-                <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
-                <textarea
-                        class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                <span class="uppercase text-sm text-gray-600 font-bold">From</span>
+                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                       type="text">
+            </div>
+            <div class="mt-8">
+                <span class="uppercase text-sm text-gray-600 font-bold">Destination</span>
+                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                       type="text">
+            </div>
+            <div class="mt-8">
+                <span class="uppercase text-sm text-gray-600 font-bold">Date</span>
+                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                       type="date">
+            </div>
+            <div class="mt-8">
+                <span class="uppercase text-sm text-gray-600 font-bold">Class</span>
+                <select class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                       type="text">
+                    <option>First class</option>
+                    <option>Business class</option>
+                    <option>Premium sconomy class</option>
+                    <option>Economy class</option>
+                </select>
+            </div>
+
+            <div class="mt-8">
+                <span class="uppercase text-sm text-gray-600 font-bold">Airline</span>
+                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                       type="text">
+            </div>
+            <div class="mt-8">
+                <span class="uppercase text-sm text-gray-600 font-bold">Passengers</span>
+                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                       type="number">
             </div>
             <div class="mt-8">
                 <button
                         class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-                    Send Message
+                    Book
                 </button>
             </div>
         </div>
@@ -664,7 +696,7 @@
 <div class="section bg-primary">
     <div class="container">
         <div class="footer-grid">
-            <img src="assets/images/logo-212.png" loading="lazy" id="w-node-_116c6020-8c66-bb25-2d61-fa18863f53c0-863f538d" alt="" class="footer-logotype">
+            <img src="../assets/images/logo-212.png" loading="lazy" id="w-node-_116c6020-8c66-bb25-2d61-fa18863f53c0-863f538d" alt="" class="footer-logotype">
             <div id="w-node-_116c6020-8c66-bb25-2d61-fa18863f5390-863f538d" class="footer-content-wrap">
                 <div class="text-small-caps text-secondary">Address</div>
                 <div class="footer-link-wrap"><a href="mailto://info@memoraveltravel.com" aria-current="page" class="footer-link">info@memoraveltravel.com</a></div>
@@ -678,24 +710,24 @@
                 <div class="w-dyn-list">
                     <div role="list" class="w-dyn-items">
                         <div role="listitem" class="w-dyn-item">
-                            <div class="footer-link-wrap"><a href="corporate/air-ticketing.html" class="footer-link">Air Tickets</a></div>
+                            <div class="footer-link-wrap"><a href="air-ticketing.html" class="footer-link">Air Tickets</a></div>
                         </div>
                         <div role="listitem" class="w-dyn-item">
-                            <div class="footer-link-wrap"><a href="corporate/airport-transfers.html" class="footer-link">Airport Transfers</a></div>
+                            <div class="footer-link-wrap"><a href="airport-transfers.html" class="footer-link">Airport Transfers</a></div>
                         </div>
                         <div role="listitem" class="w-dyn-item">
-                            <div class="footer-link-wrap"><a href="corporate/hotel-booking.html" class="footer-link">Hotel booking</a></div>
+                            <div class="footer-link-wrap"><a href="hotel-booking.html" class="footer-link">Hotel booking</a></div>
                         </div>
                         <div role="listitem" class="w-dyn-item">
-                            <div class="footer-link-wrap"><a href="corporate/travel-insurance.html" class="footer-link">Travel Insurance</a></div>
+                            <div class="footer-link-wrap"><a href="travel-insurance.html" class="footer-link">Travel Insurance</a></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div id="w-node-_7d2061bd-7452-ee80-c151-b37349c45d27-863f538d" class="footer-content-wrap">
                 <div class="text-small-caps text-secondary">Company</div>
-                <div class="footer-link-wrap"><a href="about.html" class="footer-link">About us</a></div>
-                <div class="footer-link-wrap"><a href="contact.html" class="footer-link">Contact</a></div>
+                <div class="footer-link-wrap"><a href="../about.html" class="footer-link">About us</a></div>
+                <div class="footer-link-wrap"><a href="../contact.html" class="footer-link">Contact</a></div>
                 <div class="footer-link-wrap"><a href="#" class="footer-link">Terms &amp;&nbsp;Conditions</a></div>
                 <div class="footer-link-wrap"><a href="#" class="footer-link">Licenses</a></div>
             </div>
